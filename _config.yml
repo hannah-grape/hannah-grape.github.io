@@ -1,7 +1,26 @@
-name: Hannah Grape
+###
+# Jekyll Configuration
+###
 markdown: redcarpet
 pygments: true
 
+###
+# Site Configuration
+###
+title: Hannah Grape
+domain: hannah-grape.github.io
+
+###
+# Author Configuration
+###
+author:
+  name: hannah clemmons
+  description: constructivist educator
+  email: hannah.clemmons@gmail.com
+
+###
+# Social Accounts
+###
 accounts:
   github: hannah-grape
   twitter: hannahclemmons

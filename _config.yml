@@ -1,3 +1,7 @@
 name: Hannah Grape
 markdown: redcarpet
 pygments: true
+
+accounts:
+  github: hannah-grape
+  twitter: hannahclemmons

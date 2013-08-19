@@ -18,7 +18,7 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <h1 class="title"><a href="/">{{ site.title }}</a></h1>
               <a class="extra" href="/">home</a>
             </div>
 
@@ -27,15 +27,15 @@
             <div class="footer">
               <div class="contact">
                 <p>
-                  hannah clemmons<br />
-                  constructivist educator<br />
-                  hannah.clemmons@gmail.com
+                  {{ site.author.name }}<br />
+                  {{ site.author.description }}<br />
+                  {{ site.author.email }}
                 </p>
               </div>
               <div class="contact">
                 <p>
-                  <a href="http://github.com/hannah-grape/">github.com/hannah-grape</a><br />
-                  <a href="http://twitter.com/hannahclemmons/">twitter.com/hannahclemmons</a><br />
+                  <a href="http://github.com/{{ site.accounts.github }}/">{{ site.accounts.github }}</a><br />
+                  <a href="http://twitter.com/{{ site.accounts.github }}/">{{ site.accounts.twitter }}</a><br />
                 </p>
               </div>
             </div>
